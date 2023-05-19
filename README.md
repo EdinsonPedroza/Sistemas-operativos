@@ -1,5 +1,5 @@
 # Sistemas-operativos
 
- #*CODIGO NGINX*
+ # *CODIGO NGINX*
  
  
