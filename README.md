@@ -3,7 +3,10 @@
  # *CODIGO NGINX*
  Para configurar nginx como proxy inverso, se edito el archivo de configuración de Nginx (/etc/nginx/nginx.conf) 
  y se agregaron las siguientes líneas:
+ 
+ 
  server {
+ 
     listen 80;
     server_name 192.168.20.25;
 
@@ -21,7 +24,8 @@
  
 Se creo un archivo docker-compose.yml con la siguiente configuración para desplegar una aplicación web:
  
- version: '3'
+ 
+version: '3'
 
 services:
   web:
@@ -31,5 +35,5 @@ services:
  
  # *CODIGO APACHE*
  
- No se necesito codifo 
+ No se necesito codigo 
  
